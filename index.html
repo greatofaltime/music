@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+    // script.js
+function playMusic(song) {
+    var audioPlayer = document.music('audioPlayer');
+    audioPlayer.src = song;
+    audioPlayer.play();
+}
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +15,6 @@
 </head>
 <body>
     <h1>유준취향노래추천기</h1>
-    // script.js
-function playMusic(song) {
-    var audioPlayer = document.music('audioPlayer');
-    audioPlayer.src = song;
-    audioPlayer.play();
-}
 
     <button onclick="playMusic('Back In Black.mp3')">Back In Black</button><br>
     <button onclick="playMusic('Bad Apple.mp3')">Bad Apple</button><br>
