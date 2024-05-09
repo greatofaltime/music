@@ -1,6 +1,6 @@
 // script.js
 function playMusic(song) {
-    var audioPlayer = document.getElementById('audioPlayer');
+    var audioPlayer = document.music('audioPlayer');
     audioPlayer.src = song;
     audioPlayer.play();
 }
