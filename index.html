@@ -8,6 +8,13 @@
 </head>
 <body>
     <h1>유준취향노래추천기</h1>
+    // script.js
+function playMusic(song) {
+    var audioPlayer = document.music('audioPlayer');
+    audioPlayer.src = song;
+    audioPlayer.play();
+}
+
     <button onclick="playMusic('Back In Black.mp3')">Back In Black</button><br>
     <button onclick="playMusic('Bad Apple.mp3')">Bad Apple</button><br>
     <button onclick="playMusic('David Bowie  Life On Mars.mp3')">David Bowie  Life On Mars</button><br>
